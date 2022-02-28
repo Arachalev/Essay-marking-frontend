@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+
+
+
+.headerContainer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #66cc7b;
+    width: 100vw;
+    padding: 2rem;
+    height: 5rem;
+}
+.corenLogo img
+{
+
+    height: 5rem;
+    width: 8rem;
+}
+.headerLinks
+{
+    display: flex;
+    gap: 2rem; 
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.headerLinks li
+{
+    list-style: none;
+}
+
+
+
