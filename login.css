@@ -1,142 +1,120 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0px;
-    background-color: rgb(247, 247, 247);
-    max-width: 100vw;
-    /* overflow: hidden; */
-}
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
 
- 
- 
-
-.headerContainer
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #00914a;
-    /* padding: 2rem; */
-    height: 5rem;
+* {
+  box-sizing: border-box;
 }
-.headerContainer h4
-{
-    text-transform: uppercase;
-    color: white;
-    font-size: 2rem;
-    /* align-self: flex-start; */
-    margin: 0px 19rem 0px 0px;
-    word-spacing: 2rem;
-    /* align-self: center; */
+body {
+  font-family: "Rubik" "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
+  margin: 0px;
+  background-color: rgb(247, 247, 247);
+  max-width: 100vw;
+  /* overflow: hidden; */
 }
 
-.corenLogo
-{
-    padding-left: 2rem;
-
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00914a;
+  /* padding: 2rem; */
+  height: 5rem;
 }
-.corenLogo:hover
-{
-    transform: scale(1.05);
-    transition: all .2s ease-in-out;
-    cursor: pointer;
-}
-
-.corenLogo img
-{
-    align-self: flex-start;
-    height:4rem;
-    width: 6rem;
-}
-
- 
-.login
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
-    margin: 10rem auto;
-
+.headerContainer h4 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  /* align-self: flex-start; */
+  margin: 0px 19rem 0px 0px;
+  word-spacing: 2rem;
+  /* align-self: center; */
 }
 
-.login p
-{
-    font-size: 2rem;
-    margin: 0px;
-   
+.corenLogo {
+  padding-left: 2rem;
+}
+.corenLogo:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
-.loginForm 
-{
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    width: 25rem
-}
-.loginForm  input
-{
-    padding:1rem;
-    
-    margin-top: 0.4rem;
-    border:1px solid grey;
-    border-radius: 10px;
-}
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
+.corenLogo img {
+  align-self: flex-start;
+  height: 4rem;
+  width: 6rem;
 }
 
-.loginbutton
-{
-    margin: 2rem 0 0 0;
-    padding: 0.8rem 3rem;
-    border: none;
-    border-radius: 10px;
-    background-color: #00914a;
-    color:white;
-    font-size: 1.3rem;
-    /* cursor: pointer; */
-
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem auto;
 }
 
-.loginbutton:hover
-{
-    transform: scale(1.02);
-    cursor: pointer;
-    background-color: #016133;
-
-    transition: all .2s ease-in-out;
-
+.login p {
+  font-size: 2rem;
+  margin: 0px;
 }
 
+.loginForm {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+.loginForm input {
+  padding: 1rem;
 
-.footer
-{
-    padding: 0px 2rem 2rem 2rem;
+  margin-top: 0.4rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
 }
 
+.loginbutton {
+  margin: 2rem 0 0 0;
+  padding: 0.8rem 3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #00914a;
+  color: white;
+  font-size: 1.3rem;
+  /* cursor: pointer; */
+}
+
+.loginbutton:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  background-color: #016133;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.footer {
+  padding: 0px 2rem 2rem 2rem;
+}
 
 .footerContainer {
- display: flex;
- justify-content: space-between;
- justify-items: baseline;
- margin: 3rem 0px 0px 0px;
- 
+  display: flex;
+  justify-content: space-between;
+  justify-items: baseline;
+  margin: 3rem 0px 0px 0px;
 }
 
 .copyright p {
- font-size: 1.3rem;
- margin: 0px;
+  font-size: 1.3rem;
+  margin: 0px;
 }
 .icons span {
- padding: 0 0.5rem;
- font-size: 1.5rem;
- color: rgb(59, 59, 59);
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  color: rgb(59, 59, 59);
 }
 
-.icons span:hover
-{
-    cursor: pointer;
+.icons span:hover {
+  cursor: pointer;
 }

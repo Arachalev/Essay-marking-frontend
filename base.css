@@ -1,40 +1,33 @@
-*{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0px;
-}
+body {
+  font-family: "Rubik" "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
-
-
-
-.headerContainer
-{
-    display: flex;
-    justify-content: space-between;
-    background-color: #66cc7b;
-    width: 100vw;
-    padding: 2rem;
-    height: 5rem;
-}
-.corenLogo img
-{
-
-    height: 5rem;
-    width: 8rem;
-}
-.headerLinks
-{
-    display: flex;
-    gap: 2rem; 
-    justify-content: space-between;
-    margin: 0px;
+  margin: 0px;
 }
 
-.headerLinks li
-{
-    list-style: none;
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #66cc7b;
+  width: 100vw;
+  padding: 2rem;
+  height: 5rem;
+}
+.corenLogo img {
+  height: 5rem;
+  width: 8rem;
+}
+.headerLinks {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 0px;
 }
 
-
-
+.headerLinks li {
+  list-style: none;
+}

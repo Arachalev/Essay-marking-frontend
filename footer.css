@@ -1,22 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0px;
+  font-family: "Rubik" "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
- .footer
- {
-     padding: 0px 2rem 2rem 2rem;
- }
-
+.footer {
+  padding: 0px 2rem 2rem 2rem;
+}
 
 .footerContainer {
   display: flex;
   justify-content: space-between;
   justify-items: baseline;
   margin: 3rem 0px 0px 0px;
-  
 }
 
 .copyright p {
