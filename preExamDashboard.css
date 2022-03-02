@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: rgb(245, 245, 245);
+  max-width: 100vw;
+  /* overflow: hidden; */
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00914a;
+  /* padding: 2rem; */
+  height: 5rem;
+}
+.headerContainer h4 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  margin: 0px 19rem 0px 0px;
+  word-spacing: 2rem;
+}
+
+.corenLogo {
+  padding-left: 2rem;
+}
+.corenLogo:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.corenLogo img {
+  align-self: flex-start;
+  height: 4rem;
+  width: 8rem;
+}
+/*******************HEADER ENDS*******************************/
+
+main {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+/***********INSTRUCTIONS*************************/
+.instructions {
+  flex: 1 1 0;
+  padding-left: 1rem;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.instructions h4 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.instructions ul {
+  list-style: none;
+  padding: 0px;
+}
+.instructions ul li {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0px;
+}
+.instructions ul p {
+  margin: 0px;
+  text-transform: uppercase;
+  color: rgb(61, 61, 61);
+}
+.instructions ul li i {
+  transform: translate(-40px);
+  color: #00914a;
+
+  /* display: none; */
+}
+
+.instructions ul li:hover i {
+  transform: translate(5px);
+
+  transition: all 0.28s ease-in;
+  /* display: inline; */
+}
+/***********INSTRUCTIONS*************************/
+
+/***********CANDIDATE*************************/
+
+.candidate {
+  flex: 3 1 0;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.details {
+  text-transform: uppercase;
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+}
+.profileIcon {
+  font-size: 3rem;
+  color: #00914a;
+  padding: 0.7rem;
+  
+}
+
+.profileIcon:hover
+{
+    cursor: pointer;
+    box-shadow: 2px 2px 3px  gray ;
+  border: 1px solid gray;
+    border-radius: 40px;
+    height: fit-content;
+    transition: all .3s ease-in;
+}
+
+.profile p {
+  text-transform: capitalize;
+}
+
+.exam {
+  background-color: #a5a5a5;
+  width: 30rem;
+  border-radius: 30px;
+  padding: 2rem;
+  /* color: white; */
+  
+}
+
+.exam h3, 
+.exam h4
+{
+    text-transform: capitalize;
+}
+
+
+.examIcons
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.examIcons span
+{
+    font-size: 2rem;
+  color: #00914a;
+background-color: white;
+height: 3rem;
+width: 3rem;
+padding: 0.5rem;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+}
+.examIcons p
+{
+    text-transform: capitalize;
+}
+ 
+
+.startExam
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: #00914a;
+    border-radius: 30px;
+    color: white;
+    margin-top: 1rem;
+    text-transform: capitalize;
+
+}
+
+.startExam:hover 
+{
+    cursor: pointer;
+}
+.startExam:hover i
+{
+    transform: translate(20px);
+    transition: all .2s ease-in;
+
+}
+
+.startExam h4
+{
+    margin: 0px;
+}
+
+/***********************CANDIDATE*******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********FOOTER**********************/
+
+.footer {
+  padding: 0px 2rem 2rem 2rem;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  justify-items: baseline;
+  margin: 3rem 0px 0px 0px;
+}
+
+.copyright p {
+  font-size: 1.3rem;
+  margin: 0px;
+}
+.icons span {
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  color: rgb(59, 59, 59);
+}
+
+.icons span:hover {
+  cursor: pointer;
+}
